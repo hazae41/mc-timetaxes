@@ -1,0 +1,7 @@
+repositories {
+    maven { url "http://nexus.hc.to/content/repositories/pub_releases" }
+}
+
+dependencies {
+    compileOnly "net.milkbowl.vault:VaultAPI:1.7"
+}

@@ -1,0 +1,10 @@
+name: TimeTaxes
+version: @version@
+main: hazae41.minecraft.timetaxes.Plugin
+author: Hazae41
+
+commands:
+  timetaxes:
+    aliases: [taxes]
+    permission: "timetaxes.reload"
+    description: "Reload TimeTaxes"

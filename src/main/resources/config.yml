@@ -1,0 +1,11 @@
+"The Weekly Tax":
+  type: weekly
+  price: 100
+
+"The Daily Tax":
+  type: daily
+  price: 10
+
+"The tax to help the poor":
+  type: monthly
+  price: 30%
