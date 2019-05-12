@@ -124,7 +124,7 @@ class Plugin: BukkitPlugin(){
     fun Tax.schedule() = also{ tax ->
 
         schedule(
-            async = true, period = 1, unit = HOURS
+            async = false, period = 1, unit = HOURS
         ) task@ {
             eco ?: return@task
             val last = Instant.ofEpochSecond(tax.last)
